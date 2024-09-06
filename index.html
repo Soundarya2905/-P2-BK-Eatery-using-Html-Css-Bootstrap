@@ -1,0 +1,447 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BK Eatery</title> <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="ex.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+</head>
+
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container-fluid">  
+            <img src="img/logo1.png.png" alt="Logo" height="10%" width="10%">
+             <button class="navbar-toggler"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link" href="#home">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+                   
+                    <li class="nav-item"> <a class="nav-link" href="#menu">Menu</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="https://wa.me/9566913606?text=Hello%2C%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank" class="text-decoration-none">Contact</a> </li>
+                    <li class="nav-item"> <a class="btn btn-book" href="#book">Book a Table</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  <section class="hero-section " id="home">
+        <div class="content">
+            <h1 class="display-4">Enjoy Our Delicious Meal</h1>
+            
+             <a href="#book" class="btn btn-book">Book a Table</a>
+        </div>
+    </section>
+    <!---------------------------------------->
+    <section id="about">
+    <div class="container about-us-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-6 mb-4">
+                        <img src="img/aboutimg1.jpeg" class="img-fluid" alt="Image 1">
+                    </div>
+                    <div class="col-6 mb-4">
+                        <img src="img/aboutimg2.jpeg" class="img-fluid" alt="Image 2">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/aboutimg3.jpeg" class="img-fluid" alt="Image 3">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/aboutimg4.jpeg" class="img-fluid" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2>Welcome to <span style="color: #f39c12;">&#127860; BK Eatery</span></h2>
+                <p>Promising an elite experience, each table will have a designated ‘captain’ that provides personalised service to the regal guests.
+                     We have carefully handpicked the staff from all over India and have been given special training.</p>
+                <p>Our restaurant,BK Eatery offers a sophisticated dining experience for those seeking to explore beyond the ordinary and discover the full potential of south-indian dining experience.</p>
+                <div class="d-flex justify-content-start align-items-center mb-4">
+                    <div class="me-5">
+                        <span class="experience">11</span>
+                        <p>Years of EXPERIENCE</p>
+                    </div>
+                    <div>
+                        <span class="experience">37</span>
+                        <p>Popular MASTER CHEFS</p>
+                    </div>
+                </div>
+                <button class="read-more-btn">READ MORE</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <!----------------------------------------->
+    <section id="menu">
+    <div class="container mt-5">
+        <div class="menu-tabs">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="breakfast-tab" data-bs-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true"><i class="bi bi-cup"></i> Popular Breakfast</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="lunch-tab" data-bs-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false"><i class="bi bi-burger"></i> Special Lunch</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="dinner-tab" data-bs-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false"><i class="bi bi-egg-fried"></i> Lovely Dinner</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/breakfast1.jpeg" alt="#">
+                        <div>
+                            <h5>Beetroot Paratha</h5>
+                            <p> (With Paneer Stuffing)</p>
+                        </div>
+                    </div>
+                    <span class="price">$115</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/breakfast2.jpeg" alt="#">
+                        <div>
+                            <h5>Instant Jowar Dosa</h5>
+                            <p>With more healthy</p>
+                        </div>
+                    </div>
+                    <span class="price">$115</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/breakfast3.jpeg" alt="#">
+                        <div>
+                            <h5>Paneer Kathi Roll </h5>
+                            <p>(Street-Style Paneer Wrap)</p>
+                        </div>
+                    </div>
+                    <span class="price">$115</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/breakfast4.jpeg" alt="#">
+                        <div>
+                            <h5>Rava Idli</h5>
+                            <p>Indian Style</p>
+                        </div>
+                    </div>
+                    <span class="price">$115</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/breakfast5.jpeg" alt="#">
+                        <div>
+                            <h5>Masala Papad</h5>
+                            <p> crispy, spicy, tangy</p>
+                        </div>
+                    </div>
+                    <span class="price">$115</span>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/lunch1.jpeg" alt="#">
+                        <div>
+                            <h5>Chicken Briyani</h5>
+                            <p>Indian style</p>
+                        </div>
+                    </div>
+                    <span class="price">$150</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/curdrice.jpg" alt="#">
+                        <div>
+                            <h5>Curd rice</h5>
+                            <p>with Sweeters</p>
+                        </div>
+                    </div>
+                    <span class="price">$200</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/tomatorice.jpg" alt="#">
+                        <div>
+                            <h5>Tomato rice</h5>
+                            <p>With Spicy</p>
+                        </div>
+                    </div>
+                    <span class="price">$130</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/carrotrice.jpg" alt="#">
+                        <div>
+                            <h5>carrot rice</h5>
+                            <p>south-indian Style</p>
+                        </div>
+                    </div>
+                    <span class="price">$220</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/potatorice.jpg" alt="#">
+                        <div>
+                            <h5>potato rice</h5>
+                            <p>Khasmeri Style</p>
+                        </div>
+                    </div>
+                    <span class="price">$90</span>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/dinner1.jpeg" alt="#">
+                        <div>
+                            <h5>Naan</h5>
+                            <p>Available Normal & Butter</p>
+                        </div>
+                    </div>
+                    <span class="price">$250</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/dinner2.jpeg" alt="#">
+                        <div>
+                            <h5>Kothu Parota</h5>
+                            <p>Tamilnadu Style</p>
+                        </div>
+                    </div>
+                    <span class="price">$300</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/dinner3.jpeg" alt="#">
+                        <div>
+                            <h5>Veg Fride Rice</h5>
+                            <p>Hydrabadi Style</p>
+                        </div>
+                    </div>
+                    <span class="price">$180</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/dinner4.jpeg" alt="#">
+                        <div>
+                            <h5>Dosa</h5>
+                            <p>Diffrent varieties Of chutnies</p>
+                        </div>
+                    </div>
+                    <span class="price">$160</span>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex align-items-center">
+                        <img src="img/dinner5.jpeg" alt="#">
+                        <div>
+                            <h5>curie Dosa</h5>
+                            <p>Pune Style</p>
+                        </div>
+                    </div>
+                    <span class="price">$110</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!---------------------------------------->
+    
+<div class="container my-5">
+    <div class="testimonial">
+        <h2>Testimonial</h2>
+        <h3>Our Clients Say!!!</h3>
+        
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p>
+                        <i class="bi bi-quote"></i>
+                        The ambiance was absolutely perfect for a romantic evening.<br> The food was exquisite, 
+                         and the service was top-notch. <br> Highly recommend this place!"
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center mt-4">
+                        <img src="img/cli1.jpeg" alt="Client 1">
+                        <div class="ms-3 text-start">
+                            <h5>Divya</h5>
+                            <p>Food Taster</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <p>
+                        <i class="bi bi-quote"></i>
+                        A delightful dining experience from start to finish. The flavors were incredible,<br> 
+                        and the atmosphere made the night unforgettable. <br> Will definitely be returning!
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center mt-4">
+                        <img src="img/cli2.jpeg" alt="Client 2">
+                        <div class="ms-3 text-start">
+                            <h5>Taruna</h5>
+                            <p>Doctor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <p>
+                        <i class="bi bi-quote"></i>
+                        An outstanding experience with a diverse menu that caters to all tastes. <br> 
+                        The attention to detail in every dish was remarkable, <br>and the staff made us feel like VIPs!
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center mt-4">
+                        <img src="img/cli3.jpeg" alt="Client 3">
+                        <div class="ms-3 text-start">
+                            <h5>Bavis</h5>
+                            <p>Traveller</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!------------------------------------>
+    <section id="book">
+   <div class="container mt-5">
+        <div class="row equal-height">
+            <div class="col-md-6 left-side">
+                <img src="img/couple.jpeg" alt="Dining Image" class="img-fluid">
+            </div>
+            <div class="col-md-6 right-side bg-dark text-white p-4">
+                <h2>Book A Table Online</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Date & Time</label>
+                        <input type="datetime-local" class="form-control" id="date">
+                    </div>
+                    <div class="mb-3">
+                        <label for="people" class="form-label">No Of People</label>
+                        <select class="form-select" id="people">
+                            <option value="1">People 1</option>
+                            <option value="2">People 2</option>
+                            <option value="3">People 3</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="request" class="form-label">Special Request</label>
+                        <input type="text" class="form-control" id="request" placeholder="Enter any special request">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--------------------------------->
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="feature-box ">
+                    <div class="feature-icon">
+                        <i class="bi bi-clock-history"></i>
+                    </div>
+                    <h4 class="feature-title">11:00am-8:00pm</h4>
+                    <p class="feature-description">Working Hours</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <a href="upi://pay?pa=bkeatery@bank&pn=BK%20Eatery&am=0&cu=INR" target="_blank" class="text-decoration-none">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-credit-card-2-front"></i>
+                        </div>
+                        <h4 class="feature-title">Security Payment</h4>
+                        <p class="feature-description">100% secure payment</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-3">
+                <a href="https://www.google.com/maps/place/BK+Eatery/@40.712776,-74.005974,15z/" target="_blank" class="text-decoration-none">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h4 class="feature-title">BK Eatery</h4>
+                        <p class="feature-description">Get Direction</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-3">
+                <a href="https://wa.me/9566913606?text=Hello%2C%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank" class="text-decoration-none">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-telephone-outbound"></i>
+                        </div>
+                        <h4 class="feature-title">9566913606</h4>
+                        <p class="feature-description">Call Us Now</p>
+                    </div>
+                </a>
+            </div>
+            
+    </div>
+<!--------------------------------------------------------------------------------------------------------->
+  <!-- Footer -->
+  <footer class="footer fade-in ">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Logo Section -->
+            <div class="col-md-4 footer-logo">
+                <img src="img/logo1.png.png" alt="Restaurant Logo" height="30%" width="50%">
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Follow Us</h5>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Quick Links</h5>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 ">
+                <p>@ 2024 BK Eatery. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
